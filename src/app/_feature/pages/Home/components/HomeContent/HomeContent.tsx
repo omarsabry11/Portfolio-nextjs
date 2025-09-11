@@ -10,7 +10,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import PersonalPhoto from "../PersonalPhoto/PersonalPhoto";
+import Image from "next/image";
 
 export default function Home() {
   const typewriterRef = useRef(null);
@@ -85,8 +85,20 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="max-lg:order-1 relative"
           >
-            <PersonalPhoto></PersonalPhoto>
-            <div className="flex items-center gap-10 mt-10 justify-center">
+         
+
+
+            <div>
+              <div className="max-lg:hidden">
+                <Image src={"/images/Photo1.png"} width={900} height={900} alt="Personal Photo"></Image>
+              </div>
+
+              <div className="lg:hidden">
+                <Image src={"/images/Photo1.png"} width={400} height={400} alt="Personal Photo"></Image>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-8 mt-10 justify-center">
               <a
                 rel="noopener noreferrer"
                 title="facebook"

@@ -96,7 +96,7 @@ function ProjectsContent() {
   return (
     <>
       <section className="">
-        <div className="mt-10  text-white">
+        <div className="mt-10 text-white">
           <ul className="flex justify-center items-center flex-wrap max-md:gap-4 ">
             {["all", "html", "js", "react", "angular"].map((type, index) => (
               <li

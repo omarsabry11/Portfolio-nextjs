@@ -37,7 +37,7 @@ export default function Navbar() {
   const [pathName, setPathName] = useState(usePathname());
 
   console.log(usePathname());
-  
+
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -45,16 +45,17 @@ export default function Navbar() {
     }
   }, [darkMode]);
   return (
-    <div
+    <nav
       className={`dark:bg-[#030714] bg-gray-100 shadow-lg  py-3 z-10 max-md:py-5`}
     >
       <div className="w-[80%] mx-auto text-white flex justify-between items-center">
         <Link onClick={() => setPathName("/")} href="/" className="flex items-center gap-3">
           <Image
-            src={"/images/Group 1.webp"}
-            alt="logo"
+            src={"/images/Photo2.png"}
+            alt="Logo"
             width={40}
             height={40}
+
           ></Image>
           <div>
             <p className="font-semibold dark:text-white text-[#070B18] max-md:text-sm">
@@ -94,17 +95,15 @@ export default function Navbar() {
 
         {/* Large Screen */}
         <ul
-          className={`md:flex items-center text-[#070B18] dark:text-white gap-6 hidden ${
-            isMenuOpen ? "block" : "hidden"
-          } mt-4 md:mt-0`}
+          className={`md:flex items-center text-[#070B18] dark:text-white gap-6 hidden ${isMenuOpen ? "block" : "hidden"
+            } mt-4 md:mt-0`}
         >
           {LINKS.map((item, index) => (
             <li key={index}>
               <Link
                 onClick={() => setPathName(item.href.toLowerCase())}
-                className={`${
-                  pathName === item.href.toLowerCase() ? "activeNav" : ""
-                } duration-300 hover:text-[#8C5EF6]`}
+                className={`${pathName === item.href.toLowerCase() ? "activeNav" : ""
+                  } duration-300 hover:text-[#8C5EF6]`}
                 href={item.href}
               >
                 {item.name}
@@ -115,56 +114,27 @@ export default function Navbar() {
       </div>
 
       {/* Small Screen */}
-
       {isMenuOpen && (
         <ul className="md:hidden flex flex-col items-center gap-6 mt-4 bg-[#030714] text-white py-4">
-          <li>
-            <Link
-              className="duration-300 hover:text-[#8C5EF6]"
-              href="/"
-              onClick={toggleMenu}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="duration-300 hover:text-[#8C5EF6]"
-              href="about"
-              onClick={toggleMenu}
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="duration-300 hover:text-[#8C5EF6]"
-              href="skills"
-              onClick={toggleMenu}
-            >
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="duration-300 hover:text-[#8C5EF6]"
-              href="projects"
-              onClick={toggleMenu}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="duration-300 hover:text-[#8C5EF6]"
-              href="contact"
-              onClick={toggleMenu}
-            >
-              Contact
-            </Link>
-          </li>
+
+          {LINKS.map((item, index) => (
+            <li key={index}>
+              <Link
+                onClick={() => {
+                  setPathName(item.href.toLowerCase());
+                  setIsMenuOpen(false);
+                }}
+                className={`${pathName === item.href.toLowerCase() ? "activeNav" : ""
+                  } duration-300 hover:text-[#8C5EF6]`}
+                href={item.href}
+              >
+                {item.name}
+              </Link>
+            </li>
+          ))}
+
         </ul>
       )}
-    </div>
+    </nav>
   );
 }

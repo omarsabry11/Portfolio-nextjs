@@ -101,10 +101,10 @@ export default function ContactContent() {
   };
   return (
     <>
-      <section className="">
+      <section className="py-6">
         <div className="mt-10">
           <h2 className="text-5xl text-center font-bold text-white mb-10">
-            Contact <span className="text-[#FFC400]">US</span>
+            Contact <span className="text-[#FFC400]">ME</span>
           </h2>
 
           <div className="flex justify-between gap-8 max-lg:flex-col">
@@ -117,7 +117,7 @@ export default function ContactContent() {
               <h2 className="text-white text-2xl mb-5">Send Me a Message</h2>
               <form className="" onSubmit={formik.handleSubmit}>
                 <div className="flex flex-col gap-7">
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 max-sm:flex-col">
                     <div className=" flex-1">
                       <div className="relative">
                         <input
