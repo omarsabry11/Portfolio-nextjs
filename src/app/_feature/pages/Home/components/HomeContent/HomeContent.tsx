@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 // @ts-ignore
 import Typewriter from "typewriter-effect/dist/core";
 import Link from "next/link";
-import Image from "next/image";
 import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
