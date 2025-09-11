@@ -11,6 +11,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import PersonalPhoto from "../PersonalPhoto/PersonalPhoto";
 
 export default function Home() {
   const typewriterRef = useRef(null);
@@ -85,19 +86,13 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="max-lg:order-1 relative"
           >
-            <Image
-              src={"/images/Group 2.webp"}
-              alt=""
-              width={1000}
-              height={1000}
-            ></Image>
-
+            <PersonalPhoto></PersonalPhoto>
             <div className="flex items-center gap-10 mt-10 justify-center">
               <a
                 rel="noopener noreferrer"
                 title="facebook"
                 target="_blank"
-                href="https://www.facebook.com/omar.sabry.9634/"
+                href="https://www.facebook.com/omar.sabry.9634"
                 className="hover:scale-125 text-xl border-[3px] w-12 h-12 flex items-center justify-center dark:text-[#8C5EF6] text-[#6032CC] dark:border-[#493487] border-[#6032CC]  rounded-full duration-300 dark:hover:text-[#FFC400]  dark:hover:border-[#FFC400]"
               >
                 <FaFacebookF></FaFacebookF>{" "}
