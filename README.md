@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Front-End Engineer Portfolio
 
-## Getting Started
+Welcome to my personal **Front-End Engineer Portfolio**, showcasing my skills, projects, and experience in modern web development. This portfolio is built with **React.js** and includes various frontend technologies to highlight my expertise in creating responsive, interactive, and user-friendly web applications.
 
-First, run the development server:
+## 🖥 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 [View Live Portfolio]([https://your-portfolio-link.com](https://portfolio-nextjs-beta-sooty-77.vercel.app/))
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ **Responsive Design** – Fully optimized for all screen sizes using **Tailwind CSS** and **Tailwind Merge**.
+- 🎬 **Animations** – Stunning animations with **Framer Motion** and **Typewriter Effect**.
+- 🎇 **Particles Background** – Engaging particle animations powered by **tsparticles**.
+- 📝 **Form Handling** – User-friendly forms with **Formik** and **Yup** validation.
+- 🔔 **Notifications** – Seamless toasts using **React Toastify**.
+- 💡 **Modern UI/UX** – Clean, professional design with **CSS**, **Sass**, and motion effects.
+- ♻️ **Reusable Components** – Modular and maintainable codebase using React components.
+- 📈 **SEO Optimized** – Built with SEO best practices for better search engine visibility.
+- 🚀 **Fast Load Time** – Optimized with **React.lazy** and compressed assets.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Libraries & Frameworks
 
-## Learn More
+| Library / Framework       | Version     | Purpose                              |
+|---------------------------|-------------|--------------------------------------|
+| React                     | 19.0.0      | Core UI Library                      |
+| React Router DOM          | 19.0.0      | Client-side Routing                  |
+| Next JS                   | 15.3.2      | Server-side Rendering                |
+| Framer Motion             | 11.5.2      | Animations                           |
+| Formik                    | 2.4.6       | Form Handling                        |
+| Yup                       | 1.4.0       | Form Validation Schema               |
+| React Toastify            | 10.0.5      | Toast Notifications                  |
+| FontAwesome               | 6.6.0       | Icons                                |
+| tsparticles               | 3.5.0       | Particle Backgrounds                 |
+| Typewriter Effect         | 2.21.0      | Typewriter Animation                 |
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to reach out for any opportunities or collaborations:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 📧 Email: [omarsabry425@gmail.com](mailto:omarsabry425@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/omar-sabry-5205a130a](https://www.linkedin.com/in/omar-sabry-5205a130a/)

@@ -20,6 +20,16 @@ const projects = [
     type: "js",
   },
   {
+    src: "/images/CarWash.webp",
+    link: "https://car-wash-gamma.vercel.app/",
+    type: "react",
+  },
+  {
+    src: "/images/Elshrouk.webp",
+    link: "https://al-shorouk-company.vercel.app/",
+    type: "react",
+  },
+  {
     src: "/images/Todo.webp",
     link: "https://todo-list-app-git-master-omarsabry11s-projects.vercel.app/",
     type: "react",
@@ -108,9 +118,8 @@ function ProjectsContent() {
                   onClick={() => {
                     setSelected(`${type}`);
                   }}
-                  className={`${
-                    selected == `${type}` ? "projectActive" : ""
-                  } block border w-[9rem] h-[2.7rem] border-[#8C5EF6] duration-300 `}
+                  className={`${selected == `${type}` ? "projectActive" : ""
+                    } block border w-[9rem] h-[2.7rem] border-[#8C5EF6] duration-300 `}
                 >
                   {tabsName[index]}
                 </button>

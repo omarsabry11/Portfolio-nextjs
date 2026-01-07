@@ -117,7 +117,7 @@ export default function ContactContent() {
               <h2 className="text-white text-2xl mb-5">Send Me a Message</h2>
               <form className="" onSubmit={formik.handleSubmit}>
                 <div className="flex flex-col gap-7">
-                  <div className="flex gap-3 max-sm:flex-col">
+                  <div className="flex gap-3 max-sm:flex-col max-sm:gap-7">
                     <div className=" flex-1">
                       <div className="relative">
                         <input
