@@ -34,10 +34,7 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
   const [darkMode] = useState(true);
-  const [pathName, setPathName] = useState(usePathname());
-
-  console.log(usePathname());
-
+  const pathName = usePathname();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -49,20 +46,19 @@ export default function Navbar() {
       className={`dark:bg-[#030714] bg-gray-100 shadow-lg  py-3 z-10 max-md:py-5`}
     >
       <div className="w-[80%] mx-auto text-white flex justify-between items-center">
-        <Link onClick={() => setPathName("/")} href="/" className="flex items-center gap-3">
+        <Link  href="/" className="flex items-center gap-3">
           <Image
             src={"/images/Photo2.png"}
             alt="Logo"
             width={40}
             height={40}
-
           ></Image>
           <div>
             <p className="font-semibold dark:text-white text-[#070B18] max-md:text-sm">
               Omar Sabry
             </p>
             <p className="dark:text-[#FFC400] text-[#6032CC]  font-semibold max-md:text-sm text-sm">
-              Frontend Engineer
+              Frontend Developer
             </p>
           </div>
         </Link>
@@ -101,7 +97,7 @@ export default function Navbar() {
           {LINKS.map((item, index) => (
             <li key={index}>
               <Link
-                onClick={() => setPathName(item.href.toLowerCase())}
+                
                 className={`${pathName === item.href.toLowerCase() ? "activeNav" : ""
                   } duration-300 hover:text-[#8C5EF6]`}
                 href={item.href}
@@ -121,7 +117,6 @@ export default function Navbar() {
             <li key={index}>
               <Link
                 onClick={() => {
-                  setPathName(item.href.toLowerCase());
                   setIsMenuOpen(false);
                 }}
                 className={`${pathName === item.href.toLowerCase() ? "activeNav" : ""

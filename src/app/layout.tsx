@@ -12,7 +12,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Omar Sabry | Frontend Engineer",
+  title: "Omar Sabry | Frontend Developer",
   description: "Home page",
 };
 

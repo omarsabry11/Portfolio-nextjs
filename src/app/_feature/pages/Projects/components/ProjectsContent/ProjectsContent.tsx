@@ -5,78 +5,83 @@ import Image from "next/image";
 
 const projects = [
   {
-    src: "/images/Shopetto.webp",
+    src: "/images/Projects/StackVerse.webp",
+    link: "https://stack-verse-4wjp.vercel.app/en",
+    type: "react",
+  },
+  {
+    src: "/images/Projects/Shopetto.webp",
     link: "https://shopetto.vercel.app/",
     type: "react",
   },
   {
-    src: "/images/acm.webp",
+    src: "/images/Projects/acm.webp",
     link: "https://taskstream.alex.hosting.acm.org/",
     type: "react",
   },
   {
-    src: "/images/XO.webp",
+    src: "/images/Projects/XO.webp",
     link: "https://omarsabry11.github.io/XO-Game/",
     type: "js",
   },
   {
-    src: "/images/CarWash.webp",
+    src: "/images/Projects/CarWash.webp",
     link: "https://car-wash-gamma.vercel.app/",
     type: "react",
   },
   {
-    src: "/images/Elshrouk.webp",
+    src: "/images/Projects/Elshrouk.webp",
     link: "https://al-shorouk-company.vercel.app/",
     type: "react",
   },
   {
-    src: "/images/Todo.webp",
+    src: "/images/Projects/Todo.webp",
     link: "https://todo-list-app-git-master-omarsabry11s-projects.vercel.app/",
     type: "react",
   },
   {
-    src: "/images/food-recipes.webp",
+    src: "/images/Projects/food-recipes.webp",
     link: "https://food-recipes-qbui22rlp-omarsabry11s-projects.vercel.app/",
     type: "angular",
   },
   {
-    src: "/images/fresh-cart-angular.webp",
+    src: "/images/Projects/fresh-cart-angular.webp",
     link: "https://fresh-cart-angular-three.vercel.app/",
     type: "angular",
   },
 
   {
-    src: "/images/GameReviews.webp",
+    src: "/images/Projects/GameReviews.webp",
     link: " https://omarsabry11.github.io/Game-Reviews/",
     type: "js",
   },
   {
-    src: "/images/Weather.webp",
+    src: "/images/Projects/Weather.webp",
     link: "https://omarsabry11.github.io/Weather/",
     type: "js",
   },
   {
-    src: "/images/BookMarker.webp",
+    src: "/images/Projects/BookMarker.webp",
     link: "https://omarsabry11.github.io/Bookmarker/",
     type: "js",
   },
   {
-    src: "/images/SolarCompany.webp",
+    src: "/images/Projects/SolarCompany.webp",
     link: "https://omarsabry11.github.io/Solar-company/",
     type: "html",
   },
   {
-    src: "/images/VivaDecor.webp",
+    src: "/images/Projects/VivaDecor.webp",
     link: "https://omarsabry11.github.io/Viva-Decor/",
     type: "html",
   },
   {
-    src: "/images/Kasper.webp",
+    src: "/images/Projects/Kasper.webp",
     link: "https://omarsabry11.github.io/Kasber-web-site/",
     type: "html",
   },
   {
-    src: "/images/Fokir.webp",
+    src: "/images/Projects/Fokir.webp",
     link: "https://omarsabry11.github.io/Fokir/",
     type: "html",
   },

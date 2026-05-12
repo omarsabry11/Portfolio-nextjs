@@ -116,7 +116,8 @@ export default function AboutContent() {
               <div className="-mt-1">
                 <h3 className="font-bold text-[1.1rem]">2024</h3>
                 <div className="border-[3px] border-[#FFC400] p-3 rounded-xl mt-2 hover:scale-105 duration-300 max-sm:max-w-[150px] max-w-[260px] text-center">
-                  <p className="font-semibold">Joined the Acm Academy</p>
+                  <p className="font-semibold"> Completed The Frontend Development diploma at Route IT
+                    Training Center</p>
                 </div>
               </div>
             </div>
@@ -127,8 +128,7 @@ export default function AboutContent() {
                 <div className="border-[3px] border-[#FFC400] p-3 rounded-xl hover:scale-105 duration-300  max-sm:max-w-[150px] max-w-[260px] text-center">
                   <p className="font-semibold">
                     {" "}
-                    Completed The Frontend Development diploma at Route IT
-                    Training Center
+                    Started a new position as a Frontend Instructor.
                   </p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 # 🌐 Front-End Engineer Portfolio
 
-Welcome to my personal **Front-End Engineer Portfolio**, showcasing my skills, projects, and experience in modern web development. This portfolio is built with **React.js** and includes various frontend technologies to highlight my expertise in creating responsive, interactive, and user-friendly web applications.
+Welcome to my personal **Front-End Developer Portfolio**, showcasing my skills, projects, and experience in modern web development. This portfolio is built with **React.js** and includes various frontend technologies to highlight my expertise in creating responsive, interactive, and user-friendly web applications.
 
 ## 🖥 Live Demo
 

@@ -21,7 +21,7 @@ export default function Home() {
         strings: [
           '<span class=""><span>Hello, I\'m <span>Omar</span>  </span>',
           ,
-          "<span class='dark:text-[#FFC400] text-[#6032CC]'>Frontend Engineer</span>",
+          "<span class='dark:text-[#FFC400] text-[#6032CC]'>Frontend Developer</span>",
         ],
         autoStart: true,
         loop: true,
@@ -69,9 +69,9 @@ export default function Home() {
                 className="text-[1.1rem] duration-[0.4s] dark:hover:bg-[#FFC400] dark:hover:border-[#FFC400] hover:bg-[#040814] hover:text-white dark:hover:text-white border-[3px] border-[#060A16] text-[#060A16] dark:border-[#FFC400] dark:text-[#FFC400]  w-[12rem] py-2 rounded-md font-semibold"
               >
                 <a
-                  href="Omar Sabry Khalil_Frontend Engineer.pdf"
+                  href="/files/Omar-Sabry-Khalil_Frontend-Developer.pdf"
                   className="w-full h-full block"
-                  download="Omar Sabry Khalil_Frontend Engineer.pdf"
+                  download="Omar-Sabry-Khalil_Frontend-Developer.pdf"
                 >
                   Download cv
                 </a>
